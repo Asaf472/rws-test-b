@@ -1,0 +1,13 @@
+endpoints:
+  - service: rws-test
+    path: /
+    port: 3000
+
+services:
+  rws-test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    ports:
+      - 3000
