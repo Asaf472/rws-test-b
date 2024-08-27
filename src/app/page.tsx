@@ -39,6 +39,8 @@ export default function Home() {
         />
       </div>
 
+      <iframe src="https://bigbrain-frontend-asafha.monday-mew1-d.okteto.dev/" title="google" width={'100%'} height={'100%'}></iframe>
+
       <div className={styles.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
