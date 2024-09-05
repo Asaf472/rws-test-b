@@ -2,9 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
-  const decodedCookie = decodeURIComponent(document.cookie);
   console.log('document.cookie', document.cookie);
-  console.log('decodedCookie', decodedCookie);
   return (
     <main className={styles.main}>
       <div className={styles.description}>
