@@ -44,7 +44,7 @@ export default function Home() {
             title="google"
             width={'100%'}
             height={'500px'}
-            style={{ opacity: 0 }}
+{/*             style={{ opacity: 0 }} */}
         ></iframe>
       
       <div className={styles.grid}>
