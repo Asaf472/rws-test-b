@@ -39,13 +39,13 @@ export default function Home() {
         />
       </div>
 
-{/*       <iframe
+      <iframe
             src="https://bigbrain-frontend-asafha.monday-mew1-d.okteto.dev"
             title="google"
             width={'100%'}
             height={'500px'}
             style={{ opacity: 0 }}
-        ></iframe> */}
+        ></iframe>
       
       <div className={styles.grid}>
         <a
